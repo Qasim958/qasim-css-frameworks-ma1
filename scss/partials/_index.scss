@@ -1,0 +1,21 @@
+.mainContainer {
+  margin: 2%;
+  &__cardsSection {
+    &__colCard {
+      &--card {
+        @include cardStyle("lightGreyColor","lightGreyColor");
+      }
+    }
+    &__colCard:nth-child(3),
+    &__colCard:nth-child(8){
+    .card {
+        @include cardStyle("white","pinkColor");
+      }
+    }
+    &__colCard:nth-child(6){
+    .card {
+        @include cardStyle("pinkColor","whiteColor");
+      }
+    }
+  }
+}

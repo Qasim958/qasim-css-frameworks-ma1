@@ -1,0 +1,17 @@
+@import "./partials/variables";
+@import "./partials/functions";
+@import "./partials/mixins";
+@import "./partials/index";
+
+body {
+  background-color: setColor("bg");
+  overflow-x:hidden;
+}
+
+.active {
+  color: setColor("pinkColor") !important;
+}
+.nav-link:hover {
+  font-weight: bold;
+  color: setColor("pinkColor") !important;
+}

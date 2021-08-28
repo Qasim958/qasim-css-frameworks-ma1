@@ -1,0 +1,42 @@
+.mainContainer {
+  margin: 2%;
+}
+.mainContainer__cardsSection__colCard--card {
+  background-color: #f4f3ee;
+  border: 2px solid #f4f3ee;
+  border-radius: 2%;
+  margin: 10px 16px;
+  height: 200px;
+  box-shadow: 2px 2px 10px grey;
+}
+.mainContainer__cardsSection__colCard:nth-child(3) .card, .mainContainer__cardsSection__colCard:nth-child(8) .card {
+  border: 2px solid #c32c72;
+  border-radius: 2%;
+  margin: 10px 16px;
+  height: 200px;
+  box-shadow: 2px 2px 10px grey;
+}
+.mainContainer__cardsSection__colCard:nth-child(6) .card {
+  background-color: #c32c72;
+  border: 2px solid #ffffff;
+  border-radius: 2%;
+  margin: 10px 16px;
+  height: 200px;
+  box-shadow: 2px 2px 10px grey;
+}
+
+body {
+  background-color: #E5E5E5;
+  overflow-x: hidden;
+}
+
+.active {
+  color: #c32c72 !important;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  color: #c32c72 !important;
+}
+
+/*# sourceMappingURL=style.css.map */
